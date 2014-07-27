@@ -12,6 +12,7 @@
 		EC5A2BE4198552C900A5C2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5A2BE2198552C900A5C2FA /* Main.storyboard */; };
 		EC5A2BE6198552C900A5C2FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5A2BE5198552C900A5C2FA /* Images.xcassets */; };
 		EC5A2BF2198552C900A5C2FA /* FirstSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A2BF1198552C900A5C2FA /* FirstSwiftTests.swift */; };
+		EC5A2BFC1985540400A5C2FA /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A2BFB1985540400A5C2FA /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		EC5A2BEB198552C900A5C2FA /* FirstSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5A2BF0198552C900A5C2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5A2BF1198552C900A5C2FA /* FirstSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftTests.swift; sourceTree = "<group>"; };
+		EC5A2BFB1985540400A5C2FA /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EC5A2BE2198552C900A5C2FA /* Main.storyboard */,
 				EC5A2BE5198552C900A5C2FA /* Images.xcassets */,
 				EC5A2BDC198552C900A5C2FA /* Supporting Files */,
+				EC5A2BFB1985540400A5C2FA /* TipCalculatorModel.swift */,
 			);
 			path = FirstSwift;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5A2BFC1985540400A5C2FA /* TipCalculatorModel.swift in Sources */,
 				EC5A2BE1198552C900A5C2FA /* ViewController.swift in Sources */,
 				EC5A2BDF198552C900A5C2FA /* AppDelegate.swift in Sources */,
 			);
